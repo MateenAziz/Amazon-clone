@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.home__image {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-bottom: -10px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.home__rows {
+    margin-top: -200px;
+}
+
+.horizontal__dropdown MenuItem {
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+  }
+
+  /* Style for the dropdown menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 12px;
+    z-index: 1;
+  }
+
+  /* Style for the dropdown menu items */
+  .dropdown-content a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 12px;
+  }
+
+  /* Style for the dropdown menu items on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu when hovering over the dropdown container */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
