@@ -24,9 +24,8 @@ function Header() {
       searchText: e.target.value,
     });
   };
-  <h1>Remove this..</h1>;
   return (
-    <div className="header_remove_this">
+    <div className="header">
       <Link to={"/"}>
         <img
           className="header__logo"
