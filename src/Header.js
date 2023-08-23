@@ -26,7 +26,7 @@ function Header() {
   };
   <h1>Remove this..</h1>;
   return (
-    <div className="header">
+    <div className="header_remove_this">
       <Link to={"/"}>
         <img
           className="header__logo"
