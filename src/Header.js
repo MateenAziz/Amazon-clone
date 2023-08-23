@@ -24,6 +24,7 @@ function Header() {
       searchText: e.target.value,
     });
   };
+  <h1>Remove this..</h1>;
   return (
     <div className="header">
       <Link to={"/"}>
